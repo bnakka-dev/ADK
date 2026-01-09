@@ -1,6 +1,6 @@
+from __future__ import annotations
 import os
 from dotenv import load_dotenv
-from __future__ import annotations
 from google.adk.agents import Agent
 load_dotenv()
 model_name = os.getenv("ADK_MODEL")
